@@ -1,0 +1,69 @@
+.navbar-ct-gardensdojo { background-color:#4a90e2; padding-bottom :9px }
+.navbar-ct-gardensdojo .navbar-header {margin-right:2%;}
+.navbar-ct-gardensdojo .navbar-brand {position:relative}
+.navbar-ct-gardensdojo .navbar-brand img {position:absolute; left:60%; top:-12px; width:25%; opacity:.5}
+
+
+.navbar-brand .gardensdojo-brand {
+    line-height: .8;
+    margin-top: -24px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.06em;
+}
+.navbar-brand .gardensdojo-brand span { font-weight: 400; }
+
+.navbar-ct-gardensdojo .navbar-nav {margin-top:-10px;}
+.navbar-ct-gardensdojo .navbar-social {margin-top:-13px;}
+
+/* Content */
+
+.wrapper.gardensdojo {margin-top:70px}
+
+.landing-alert { margin-bottom: 0; }
+
+.landing-header {
+	background-size: cover;
+	min-height: 470px;
+	position:relative;
+    background-image: url('../images/children_background-3.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 10%; 
+    -ms-background-size: cover; 
+    -o-background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-size: cover; 
+}
+
+
+.landing-header .invite { padding-top: 5%; padding-left: 3%; text-align: left; z-index: 2; color:#fff}
+.landing-header .invite .date {line-height:120%; color:#cecece; margin-bottom:4.5%}
+.landing-header .invite .brand {color:#4a90e2; font-size:1em}
+.landing-header .invite .where {line-height:110%; color:green}
+
+.section-countdown {background: #fff;}
+.section-hellolabs {background-color:#4a90e2; color:white}
+.section-hellolabs a {color: #ccc}
+.section-hellolabs a:hover {color: #fff}
+.section-hellolabs .featurette-image {width:50%}
+.more-to-see {display:none}
+.see-more-link {font-size:90%; padding-left:15px}
+
+/* 
+.landing-section { padding: 100px 0; }
+
+.landing-section .btn-simple { padding: 0; }
+
+.landing-section .column { padding: 0 75px 0 25px; }
+ */
+.footer-dojo{ background-attachment: fixed; position: relative; line-height: 20px; }
+.footer-dojo nav > ul { list-style: none; margin: 0; padding: 0; font-weight: normal; }
+.footer-dojo nav > ul > li{ display: inline-block; padding: 10px 15px; margin: 15px 3px; line-height: 20px; text-align: center; }
+.footer-dojo nav > ul > li:first-child{ margin: 0; padding: 0; }
+.footer-dojo nav > ul a:not(.btn) { color: #777777; display: block; margin-bottom: 3px; }
+.footer-dojo nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus { color: #E3E3E3; }
+.footer-dojo .copyright { color: #777777; padding: 10px 15px; font-size: 14px; margin: 15px 3px; line-height: 20px; text-align: center; }
+.footer-dojo .heart{ color: #EB5E28; }
