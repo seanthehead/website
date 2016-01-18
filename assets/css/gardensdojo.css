@@ -22,13 +22,16 @@
 
 .wrapper.gardensdojo {margin-top:70px}
 
+.carousel-inner {
+
+}
+
 .landing-alert { margin-bottom: 0; }
 
 .landing-header {
 	background-size: cover;
 	min-height: 470px;
 	position:relative;
-    background-image: url('../images/children_background-3.jpg');
     background-repeat: no-repeat;
     background-position: 50% 10%; 
     -ms-background-size: cover; 
@@ -38,6 +41,10 @@
     background-size: cover; 
 }
 
+.landing-header-1 { background-image: url('../images/children_background-1.jpg'); }
+.landing-header-2 { background-image: url('../images/children_background-2.jpg'); }
+.landing-header-3 { background-image: url('../images/children_background-3.jpg'); }
+.landing-header-4 { background-image: url('../images/children_background-4.jpg'); }
 
 .landing-header .invite { padding-top: 5%; padding-left: 3%; text-align: left; z-index: 2; color:#fff}
 .landing-header .invite .date {line-height:120%; color:#cecece; margin-bottom:4.5%}
